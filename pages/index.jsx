@@ -60,13 +60,13 @@ export default function Home() {
           </div>
           <div className="text-5xl flex justify-center gap-12 py-3 text-gray-500 ">
             <a href="https://www.facebook.com/arcelluceno11" target="_blank">
-              <AiFillFacebook className="cursor-pointer hover:text-gray-800" />
+              <AiFillFacebook className="cursor-pointer hover:text-dark" />
             </a>
             <a href="https://www.twitter.com/arcelluceno11" target="_blank">
-              <AiFillTwitterSquare className="cursor-pointer hover:text-gray-800" />
+              <AiFillTwitterSquare className="cursor-pointer hover:text-dark" />
             </a>
             <a href="https://https://github.com/arcelluceno11" target="_blank">
-              <AiFillLinkedin className="cursor-pointer hover:text-gray-800" />
+              <AiFillLinkedin className="cursor-pointer hover:text-dark" />
             </a>
           </div>
           <div className="mx-auto bg-gradient-to-b from-dark to-white rounded-full w-80 h-80 mt-16 overflow-hidden">
