@@ -27,13 +27,15 @@ export default function Home() {
         <nav className="flex justify-between">
           <ul className="flex items-center">
             <li>
-              <a href="https://https://github.com/arcelluceno11">
+              <a href="https://github.com/arcelluceno11" target="_blank"
+                  rel="noreferrer">
                 <AiFillGithub className="text-xl cursor-pointer" />
               </a>
             </li>
             <li>
               <a
-                href="https://https://github.com/arcelluceno11"
+                href="https://github.com/arcelluceno11" target="_blank"
+                rel="noreferrer"
                 className="text-xl mx-2 cursor-pointer"
               >
                 arcelluceno11
