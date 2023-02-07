@@ -1,1 +1,1 @@
-## My Website Portfolio created with NextJS
+## My Website Portfolio created with NextJS and TailwindCSS
