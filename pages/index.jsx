@@ -73,7 +73,7 @@ export default function Home() {
           </ul>
         </nav>
       </header>
-      <main className="absolute pt-20 lg:pt-0">
+      <main className="absolute pt-16 lg:pt-8">
         <section id="home" className="px-8 pb-10">
           <div className="flex flex-col-reverse justify-around items-center lg:flex-row lg:py-0 lg:min-h-screen">
             <div className="py-2 lg:w-1/2">
