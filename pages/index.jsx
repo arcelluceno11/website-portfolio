@@ -112,7 +112,7 @@ export default function Home() {
               </div>
               <div className="mt-16 flex justify-center items-center lg:justify-start">
                 <a
-                  className="px-4 py-2 rounded-md bg-dark text-lg text-white hover:bg-gray-200 hover:text-dark lg:text-xl dark:bg-white dark:text-dark dark:hover:text-gray-200 dark:hover:bg-dark dark:hover:border-dark dark:hover:border-2"
+                  className="px-4 py-2 rounded-md bg-dark text-lg text-white hover:bg-gray-200 hover:text-dark lg:text-xl dark:bg-white dark:text-dark dark:hover:text-gray-200 dark:hover:bg-dark dark:hover:border-white dark:hover:border-2"
                   href="#home"
                 >
                   Learn More
