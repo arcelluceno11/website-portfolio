@@ -48,7 +48,7 @@ export default function Home() {
                   <AiFillTwitterSquare className="cursor-pointer hover:text-dark hover:-rotate-3" />
                 </a>
                 <a
-                  href="https://https://github.com/arcelluceno11"
+                  href="https://www.linkedin.com/in/arcel-luceno-730319206/"
                   target="_blank"
                   rel="noreferrer"
                 >
