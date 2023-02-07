@@ -23,7 +23,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ParticlesBG theme={darkMode ? "dark" : "light"} />
-      <header className="absolute w-screen pt-6 px-6 z-50 lg:pt-10 lg:px-10 dark:text-gray-200">
+      <header className="absolute w-screen pt-6 px-6 z-50 lg:px-10 dark:text-gray-200">
         <nav className="flex justify-between">
           <ul className="flex items-center">
             <li>
@@ -74,7 +74,7 @@ export default function Home() {
         </nav>
       </header>
       <main className="absolute pt-16 lg:pt-8">
-        <section id="home" className="px-8 pb-10">
+        <section id="home" className="px-8 pb-10 lg:pb-0">
           <div className="flex flex-col-reverse justify-around items-center lg:flex-row lg:py-0 lg:min-h-screen">
             <div className="py-2 lg:w-1/2">
               <h2 className="py-2 text-4xl text-dark text-center lg:text-7xl lg:text-start dark:text-gray-300">
