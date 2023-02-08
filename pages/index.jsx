@@ -1,5 +1,17 @@
 import Head from "next/head";
-import { CiDark, CiLight } from "react-icons/ci";
+import { MdDarkMode, MdLightMode } from "react-icons/md";
+import { GrMysql, GrReactjs } from "react-icons/gr";
+import {
+  DiMongodb,
+  DiAndroid,
+  DiCss3,
+  DiJavascript1,
+  DiBootstrap,
+} from "react-icons/di";
+import { SiFirebase, SiTailwindcss } from "react-icons/si";
+import { AiFillHtml5 } from "react-icons/ai";
+import { RiVuejsLine } from "react-icons/ri";
+import { FaLaravel } from "react-icons/fa";
 import {
   AiFillTwitterSquare,
   AiFillFacebook,
@@ -27,14 +39,18 @@ export default function Home() {
         <nav className="flex justify-between">
           <ul className="flex items-center">
             <li>
-              <a href="https://github.com/arcelluceno11" target="_blank"
-                  rel="noreferrer">
+              <a
+                href="https://github.com/arcelluceno11"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <AiFillGithub className="text-xl cursor-pointer" />
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/arcelluceno11" target="_blank"
+                href="https://github.com/arcelluceno11"
+                target="_blank"
                 rel="noreferrer"
                 className="text-xl mx-2 cursor-pointer"
               >
@@ -45,7 +61,7 @@ export default function Home() {
 
           <ul className="flex items-center">
             <li>
-              <CiDark
+              <MdDarkMode
                 className={
                   darkMode
                     ? "hidden"
@@ -53,7 +69,7 @@ export default function Home() {
                 }
                 onClick={() => setDarkMode(!darkMode)}
               />
-              <CiLight
+              <MdLightMode
                 className={
                   !darkMode
                     ? "hidden"
@@ -73,7 +89,7 @@ export default function Home() {
           </ul>
         </nav>
       </header>
-      <main className="absolute pt-16 lg:pt-8">
+      <main className="absolute w-screen pt-16 lg:pt-8">
         <section id="home" className="px-8 pb-10 lg:pb-0">
           <div className="flex flex-col-reverse justify-around items-center lg:flex-row lg:py-0 lg:min-h-screen">
             <div className="py-2 lg:w-1/2">
@@ -115,7 +131,7 @@ export default function Home() {
               <div className="mt-16 flex justify-center items-center lg:justify-start">
                 <a
                   className="px-4 py-2 rounded-md bg-dark text-lg text-white hover:bg-gray-200 hover:text-dark lg:text-xl dark:bg-white dark:text-dark dark:hover:text-gray-200 dark:hover:bg-dark dark:hover:border-white dark:hover:border-2"
-                  href="#home"
+                  href="#skills"
                 >
                   Learn More
                 </a>
@@ -126,18 +142,72 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/*
-          <section id="skills">
-          <div className="flex flex-col justify-evenly lg:flex-row">
-            <div className="px-6 bg-dark py-2 lg:w-1/2 dark:bg-white">
-              <h2 className="py-2 text-white text-center text-4xl dark:text-dark">
-                Skills
-              </h2>
+        <section id="skills">
+          <div className="w-screen min-h-screen">
+            <div className="flex flex-col justify-center h-screen">
+              <div className="bg-dark h-1/4">
+                <h2 className="py-6 text-white text-center text-5xl font-bold">
+                  Technology Stack
+                </h2>
+              </div>
+              <div className="py-auto px-32 bg-dark h-3/4">
+                <div className="flex justify-center items-center gap-10 flex-wrap">
+                  <div className="py-2 px-4 flex justify-round items-center text-white italic bg-dark rounded-xl">
+                    <AiFillHtml5 className="text-6xl" />
+                    <h1 className="text-3xl">HTML5</h1>
+                  </div>
+                  <div className="py-2 px-4 flex justify-round items-center text-white italic bg-dark rounded-xl">
+                    <DiCss3 className="text-6xl" />
+                    <h1 className="text-3xl">CSS3</h1>
+                  </div>
+                  <div className="py-2 px-4 flex justify-round items-center text-white italic bg-dark rounded-xl">
+                    <DiJavascript1 className="text-6xl" />
+                    <h1 className="text-3xl">Javascript</h1>
+                  </div>
+                  <div className="py-2 px-4 flex justify-round items-center text-white italic bg-dark rounded-xl">
+                    <DiBootstrap className="text-6xl" />
+                    <h1 className="text-3xl">Bootstrap</h1>
+                  </div>
+                  <div className="py-2 px-4 flex justify-round items-center text-white italic bg-dark rounded-xl">
+                    <SiTailwindcss className="text-6xl" />
+                    <h1 className="text-3xl">Tailwind</h1>
+                  </div>
+                  <div className="py-2 px-4 flex justify-round items-center text-white italic bg-dark rounded-xl">
+                    <GrReactjs className="text-6xl" />
+                    <h1 className="text-3xl">React</h1>
+                  </div>
+                  <div className="py-2 px-4 flex justify-round items-center text-white italic bg-dark rounded-xl">
+                    <RiVuejsLine className="text-6xl" />
+                    <h1 className="text-3xl">Vue</h1>
+                  </div>
+                  <div className="py-2 px-4 flex justify-round items-center text-white italic bg-dark rounded-xl">
+                    <FaLaravel className="text-6xl" />
+                    <h1 className="text-3xl">Laravel</h1>
+                  </div>
+                  <div className="py-2 px-4 flex justify-round items-center text-white italic bg-dark rounded-xl">
+                    <GrMysql className="text-6xl" />
+                    <h1 className="text-3xl">mySQL</h1>
+                  </div>
+                  <div className="py-2 px-4 flex justify-round items-center text-white italic bg-dark rounded-xl">
+                    <DiMongodb className="text-6xl" />
+                    <h1 className="text-3xl">Mongodb</h1>
+                  </div>
+                  <div className="py-2 px-4 flex justify-round items-center text-white italic bg-dark rounded-xl">
+                    <SiFirebase className="text-6xl" />
+                    <h1 className="text-3xl">Firebase</h1>
+                  </div>
+                  <div className="py-2 px-4 flex justify-round items-center text-white italic bg-dark rounded-xl">
+                    <DiAndroid className="text-6xl" />
+                    <h1 className="text-3xl">Android</h1>
+                  </div>
+                </div>
+                <div>
+                  {/* */}
+                </div>
+              </div>
             </div>
-            <div className=" bg-white py-2 lg:w-1/2"></div>
           </div>
         </section>
-        */}
       </main>
     </div>
   );
