@@ -65,7 +65,7 @@ export default function Home() {
                 className={
                   !darkMode
                     ? "hidden"
-                    : "" + "  text-dark cursor-pointer text-3xl"
+                    : "" + "  text-gray-200 cursor-pointer text-3xl"
                 }
                 onClick={() => setDarkMode(!darkMode)}
               />
@@ -73,7 +73,7 @@ export default function Home() {
                 className={
                   darkMode
                     ? "hidden"
-                    : "" + " text-gray-200 cursor-pointer text-3xl"
+                    : "" + " text-dark cursor-pointer text-3xl"
                 }
                 onClick={() => setDarkMode(!darkMode)}
               />
