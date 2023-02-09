@@ -143,15 +143,15 @@ export default function Home() {
           </div>
         </section>
         <section id="skills">
-          <div className="w-screen min-h-screen">
-            <div className="flex flex-col justify-center h-screen">
-              <div className="py-10 bg-dark h-1/4 dark:bg-gray-200">
-                <h2 className=" text-white text-center text-5xl font-bold dark:text-dark">
+          <div className="w-screen min-h-screen flex justify-center items-center">
+            <div className="bg-dark text-white dark:bg-gray-200 dark:text-dark">
+              <div className="py-10">
+                <h2 className=" text-center text-5xl font-bold">
                   Technology Stack
                 </h2>
               </div>
-              <div className="pb-10 px-32 h-fit bg-dark text-white dark:bg-gray-200 dark:text-dark">
-                <div className="flex justify-center items-center gap-10 flex-wrap">
+              <div className="pb-10 px-32 h-fit">
+                <div className="flex flex-col justify-center items-center gap-10 lg:flex-row lg:flex-wrap">
                   <div className="py-2 px-4 flex justify-round items-center">
                     <AiFillHtml5 className="text-6xl" />
                     <h1 className="text-3xl">HTML5</h1>
