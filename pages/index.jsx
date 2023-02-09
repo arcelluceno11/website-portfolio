@@ -63,7 +63,7 @@ export default function Home() {
             <li>
               <MdDarkMode
                 className={
-                  darkMode
+                  !darkMode
                     ? "hidden"
                     : "" + "  text-dark cursor-pointer text-3xl"
                 }
@@ -71,7 +71,7 @@ export default function Home() {
               />
               <MdLightMode
                 className={
-                  !darkMode
+                  darkMode
                     ? "hidden"
                     : "" + " text-gray-200 cursor-pointer text-3xl"
                 }
