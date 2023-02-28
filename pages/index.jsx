@@ -19,7 +19,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import Image from "next/image";
-import me from "../assets/arcel.png";
+import me from "../assets/arcel.jpg";
 import ParticlesBG from "@/components/ParticlesBG";
 import { useState } from "react";
 
@@ -137,7 +137,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="w-45 h-45 mt-10 mb-2 lg:m-0 mx-auto bg-gradient-to-b from-dark to-white rounded-full overflow-hidden lg:h-1/2 dark:from-white dark:to-dark">
+            <div className="w-3/4 h-3/4 mt-10 mb-2 lg:m-0 mx-auto bg-gradient-to-b from-dark to-white rounded-full overflow-hidden lg:h-2/5 lg:w-2/5 dark:from-white dark:to-dark">
               <Image src={me} alt="me" />
             </div>
           </div>
