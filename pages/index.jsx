@@ -94,7 +94,7 @@ export default function Home() {
           <div className="flex flex-col-reverse justify-around items-center lg:flex-row lg:py-0 lg:min-h-screen">
             <div className="py-2 lg:w-1/2">
               <h2 className="py-2 text-4xl text-dark text-center lg:text-7xl lg:text-start dark:text-gray-300">
-                Arcel Luceno
+                Arcel Luceno Gwapo
               </h2>
               <h3 className="py-2 text-xl text-center lg:text-start lg:text-4xl dark:text-white">
                 Software Developer
